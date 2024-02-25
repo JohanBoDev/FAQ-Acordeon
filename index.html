@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="img/background-pattern-desktop.svg" class="back-img" alt="" />
+    <section>
+      <div class="container">
+        <header class="titulo">
+          <img src="img/icon-star.svg" alt="" />
+          <h1>FAQs</h1>
+        </header>
+        <div class="acordeon margin">
+            <div class="box">
+          <div class="pregunta" onclick="cambiarEstado(this)" >
+            <h2>
+              What is Frontend Mentor,<br />
+              and how will it help me?
+            </h2>
+             <img src="img/icon-plus.svg" class="mas" alt="" />
+             <img src="img/icon-minus.svg" alt="" class="menos" style="display: none;"> 
+          </div>
+          <div class="respuesta style="display: none;"">
+            <p class="miTexto">
+              Frontend Mentor offers realistic coding challenges to help
+              developers improve their frontend coding skills with projects in
+              HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+              for portfolio building.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+            <div class="pregunta" onclick="cambiarEstado(this)">
+              <h2>
+                Is Frontend Mentor free?
+              </h2>
+               <img src="img/icon-plus.svg" class="mas" alt="" />
+               <img src="img/icon-minus.svg" alt="" class="menos" style="display: none;"> 
+            </div>
+            <div class="respuesta" style="display: none;">
+              <p class="miTexto">
+                Yes, Frontend Mentor offers both free and premium coding challenges,
+                 with the free option providing access to a range of projects suitable
+                  for all skill levels.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="pregunta" onclick="cambiarEstado(this)" >
+              <h2>
+                Can I use Frontend Mentor <br>
+                 projects in my portfolio?
+              </h2>
+               <img src="img/icon-plus.svg" class="mas" alt="" />
+               <img src="img/icon-minus.svg" alt="" class="menos" style="display: none;"> 
+            </div>
+            <div class="respuesta" style="display: none;">
+              <p class="miTexto">
+                Yes, you can use projects completed on Frontend Mentor in your portfolio.
+                 It's an excellent way to showcase your skills to potential employers!
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="pregunta" onclick="cambiarEstado(this)" >
+              <h2>
+                How can I get help if I'm stuck on a challenge?
+              </h2>
+               <img src="img/icon-plus.svg" class="mas" alt="" />
+               <img src="img/icon-minus.svg" alt="" class="menos" style="display: none;"> 
+            </div>
+            <div class="respuesta" style="display: none;">
+              <p class=" miTexto">
+                The best place to get help is inside Frontend Mentor's Discord community.
+                 There's a help channel where you can ask questions and seek support from
+                  other community members.
+              </p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
