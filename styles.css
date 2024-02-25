@@ -45,7 +45,7 @@ body {
 .titulo {
   display: flex;
   align-items: center;
-  margin: 10px 40px;
+  margin: 40px;
 
   img {
     width: 40px;
@@ -65,7 +65,7 @@ body {
 .box{
     position: relative;
     margin-bottom: 5px;
-    padding: 20px 0;
+    padding: 0 0 20px 0;
     border-bottom: 1px solid var(--grayish-purple);
 }
 
