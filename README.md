@@ -4,7 +4,7 @@ Una implementación simple de un acordeón FAQ utilizando tecnologías web está
 
 ## Vista Previa
 
-https://github.com/JohanBoDev/FAQ-Acordeon/blob/main/Captura%20de%20pantalla%20(22).png
+<img src="https://github.com/JohanBoDev/FAQ-Acordeon/blob/main/Captura%20de%20pantalla%20(22).png">
 
 ## Características
 
